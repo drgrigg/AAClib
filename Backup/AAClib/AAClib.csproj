@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3B0A6356-5364-4F9D-B259-651D86ED21C5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AAClib</RootNamespace>
+    <AssemblyName>AAClib</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>rwsign.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseMediaInfoAtom.cs" />
+    <Compile Include="BaseMediaInfoHeaderAtom.cs" />
+    <Compile Include="BaseTextAtom.cs" />
+    <Compile Include="ChapterInfo.cs" />
+    <Compile Include="ChunkMap.cs" />
+    <Compile Include="ChunkMapEntry.cs" />
+    <Compile Include="ChunkOffsetAtom.cs" />
+    <Compile Include="ContainerAtom.cs" />
+    <Compile Include="DataInformationAtom.cs" />
+    <Compile Include="DataReferenceAtom.cs" />
+    <Compile Include="DataReferenceEntry.cs" />
+    <Compile Include="DatedAtom.cs" />
+    <Compile Include="EditAtom.cs" />
+    <Compile Include="EditListAtom.cs" />
+    <Compile Include="EditListEntry.cs" />
+    <Compile Include="FileAtom.cs" />
+    <Compile Include="FileHeaderAtom.cs" />
+    <Compile Include="FileTableEntry.cs" />
+    <Compile Include="Globals.cs" />
+    <Compile Include="HandlerReferenceAtom.cs" />
+    <Compile Include="IListAtom.cs" />
+    <Compile Include="ImageTableEntry.cs" />
+    <Compile Include="MediaAtom.cs" />
+    <Compile Include="MediaDataAtom.cs" />
+    <Compile Include="MediaHeaderAtom.cs" />
+    <Compile Include="MediaInformationAtom.cs" />
+    <Compile Include="MetaDataAtom.cs" />
+    <Compile Include="MetaDataItem.cs" />
+    <Compile Include="MovieAtom.cs" />
+    <Compile Include="MovieHeaderAtom.cs" />
+    <Compile Include="AACfile.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReporterEngine.cs" />
+    <Compile Include="SampleDescriptionAtom.cs" />
+    <Compile Include="SampleDescriptionEntry.cs" />
+    <Compile Include="SampleSizeAtom.cs" />
+    <Compile Include="SampleTableAtom.cs" />
+    <Compile Include="SampleToChunkAtom.cs" />
+    <Compile Include="SimpleAtom.cs" />
+    <Compile Include="SoundDescriptionEntry.cs" />
+    <Compile Include="SoundMediaInformationAtom.cs" />
+    <Compile Include="SyncSampleAtom.cs" />
+    <Compile Include="TableAtom.cs" />
+    <Compile Include="TextDescriptionEntry.cs" />
+    <Compile Include="TextTableEntry.cs" />
+    <Compile Include="TimeToSampleAtom.cs" />
+    <Compile Include="TrackAtom.cs" />
+    <Compile Include="TrackHeaderAtom.cs" />
+    <Compile Include="TrackReferenceAtom.cs" />
+    <Compile Include="TrackReferenceTypeAtom.cs" />
+    <Compile Include="UnInterpretedAtom.cs" />
+    <Compile Include="UserDataAtom.cs" />
+    <Compile Include="Utilities.cs" />
+    <Compile Include="VideoDescriptionEntry.cs" />
+    <Compile Include="VideoMediaInformationAtom.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="rwsign.pfx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

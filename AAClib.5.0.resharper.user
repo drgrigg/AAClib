@@ -1,0 +1,130 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="UnInterpretedAtom" priority="0" />
+      <Item value="public" priority="10" />
+      <Item value="void" priority="2" />
+      <Item value="static" priority="0" />
+      <Item value="UInt32" priority="2" />
+      <Item value="byte" priority="0" />
+      <Item value="ref" priority="1" />
+      <Item value="long" priority="1" />
+      <Item value="return" priority="7" />
+      <Item value="retVal" priority="1" />
+      <Item value="offset" priority="7" />
+      <Item value="myData" priority="2" />
+      <Item value="while" priority="0" />
+      <Item value="Length" priority="1" />
+      <Item value="SimpleAtom" priority="1" />
+      <Item value="new" priority="4" />
+      <Item value="if" priority="7" />
+      <Item value="tempAtom" priority="3" />
+      <Item value="var" priority="8" />
+      <Item value="ContainerAtom" priority="0" />
+      <Item value="ilstAtom" priority="0" />
+      <Item value="else" priority="2" />
+      <Item value="metaAtom" priority="0" />
+      <Item value="switch" priority="2" />
+      <Item value="case" priority="2" />
+      <Item value="string" priority="5" />
+      <Item value="using" priority="0" />
+      <Item value="System" priority="0" />
+      <Item value="Drawing" priority="0" />
+      <Item value="Image" priority="3" />
+      <Item value="iTunesMetaData" priority="2" />
+      <Item value="metadata" priority="2" />
+      <Item value="break" priority="2" />
+      <Item value="default" priority="0" />
+      <Item value="qualifiedAtom" priority="1" />
+      <Item value="is" priority="0" />
+      <Item value="UserDataAtom" priority="0" />
+      <Item value="c" priority="0" />
+      <Item value="candidateDataAtom" priority="1" />
+      <Item value="int" priority="4" />
+      <Item value="tempbuff" priority="0" />
+      <Item value="Convert" priority="3" />
+      <Item value="GetUnistring" priority="0" />
+      <Item value="itemOffset" priority="1" />
+      <Item value="try" priority="0" />
+      <Item value="mySimpleSize" priority="1" />
+      <Item value="InternalBufferOverflowException" priority="0" />
+      <Item value="null" priority="0" />
+      <Item value="Stream" priority="0" />
+      <Item value="BinaryReader" priority="0" />
+      <Item value="size" priority="0" />
+      <Item value="aac" priority="3" />
+      <Item value="picCover" priority="0" />
+      <Item value="labName" priority="0" />
+      <Item value="labArtist" priority="0" />
+      <Item value="String" priority="0" />
+      <Item value="chapterName" priority="1" />
+      <Item value="strlen" priority="0" />
+      <Item value="fileContainer" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AAClib.SimpleAtom">
+      <Item value="SimpleSize" priority="4" />
+      <Item value="TypeNum" priority="0" />
+      <Item value="TypeString" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AAClib.ContainerAtom">
+      <Item value="TypeString" priority="0" />
+      <Item value="DataPos" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AAClib.iTunesMetaData">
+      <Item value="TrackName" priority="1" />
+      <Item value="Artist" priority="1" />
+      <Item value="Album" priority="0" />
+      <Item value="Genre" priority="0" />
+      <Item value="Artwork" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AAClib.UserDataAtom">
+      <Item value="GetMetaData" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToInt32" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="MaxValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Image">
+      <Item value="FromStream" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AAClib.AACfile">
+      <Item value="MetaData" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.PictureBox">
+      <Item value="Image" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Label">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles />
+    <RecentEdits />
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerMSTest>
+    <UseTestRunConfigFromMetadataFile>False</UseTestRunConfigFromMetadataFile>
+  </UnitTestRunnerMSTest>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

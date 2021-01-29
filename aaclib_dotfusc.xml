@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE dotfuscator SYSTEM "http://www.preemptive.com/dotfuscator/dtd/dotfuscator_v2.2.dtd">
+<dotfuscator version="2.2">
+  <!--This is application generated code. Do not edit manually.-->
+  <input>
+    <asmlist>
+      <inputassembly>
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <file dir="C:\Users\David\Dropbox\Current Projects\VSProjects - DO NOT DELETE\AAClib\AAClib\bin\Release" name="AAClib.dll" />
+      </inputassembly>
+    </asmlist>
+  </input>
+  <output>
+    <file dir="${configdir}\Dotfuscated" />
+  </output>
+  <tempdir>
+    <file dir="c:\temp" />
+  </tempdir>
+  <renaming>
+    <option>explicitoverrides</option>
+    <excludelist>
+      <type name="AAClib.AACfile">
+        <method name="CleanOutTempImages" signature="" />
+        <method name="get_Level" signature="" />
+        <method name="GetAtomAt" signature="int64&amp;" />
+        <method name="GetContainer" signature="" />
+        <method name="GetFirstAtom" signature="int64&amp;" />
+        <method name="QualifyAtom" signature="AAClib.SimpleAtom" />
+        <method name="RebuildAudioChunkOffsets" signature="" />
+        <method name="StackContents" signature="" />
+        <method name="add_ProcessingProgress" signature="void(AAClib.ProcessingProgressHandler)" />
+        <method name="add_ReportError" signature="void(AAClib.ReportErrorHandler)" />
+        <method name="add_ReportMessage" signature="void(AAClib.MessageHandler)" />
+        <method name="AddChapterStop" signature="bool(int64, string)" />
+        <method name="AddChapterStop" signature="bool(System.TimeSpan, string)" />
+        <method name="AddImage" signature="bool(int64, string)" />
+        <method name="AddImage" signature="bool(System.TimeSpan, string)" />
+        <method name="AddSourceFileToChunkMap" signature="int32(string)" />
+        <method name="AdjustDataStarts" signature="void(int64)" />
+        <method name="AdjustMovieSize" signature="void()" />
+        <method name="BuildAudioChunkMap" signature="void()" />
+        <method name="BuildChunkMap" signature="void()" />
+        <method name="BuildImageTableFromFile" signature="void()" />
+        <method name="BuildTextTableFromFile" signature="void()" />
+        <method name="CalculateDataStart" signature="int64()" />
+        <method name="ChangeMovieTimeScale" signature="void(unsigned int32)" />
+        <method name="ClearAllChaptersAndImages" signature="void()" />
+        <method name="ClearNullChunkMapEntries" signature="void()" />
+        <method name="CloseFileReader" signature="void()" />
+        <method name="CloseFileWriter" signature="void()" />
+        <method name="ConvertAudioTimeToMovieTime" signature="unsigned int32(int64)" />
+        <method name="ConvertMovieTimeToAudioTime" signature="int64(unsigned int32)" />
+        <method name="ConvertMovieTimeToTextTime" signature="int64(unsigned int32)" />
+        <method name="ConvertTextTimeToMovieTime" signature="unsigned int32(int64)" />
+        <method name="ConvertTextTimeToSecs" signature="float64(int64)" />
+        <method name="ConvertToMovieTime" signature="int32(int64)" />
+        <method name="CreateNewFile" signature="AAClib.AACfile(AAClib.AACfile)" />
+        <method name="DeleteImageTrack" signature="void()" />
+        <method name="Dispose" signature="void()" />
+        <method name="DivideInto" signature="void(int32)" />
+        <method name="EnforceMovieDuration" signature="void()" />
+        <method name="ExtractImage" signature="void(System.IO.FileStream, int64, unsigned int32, string&amp;)" />
+        <method name="FarEnoughFromEnd" signature="bool(AAClib.MovieAtom, int64)" />
+        <method name="get_Chunks" signature="AAClib.ChunkMap()" />
+        <method name="get_DestPath" signature="string()" />
+        <method name="get_Movie" signature="AAClib.MovieAtom()" />
+        <method name="get_NeedsSave" signature="bool()" />
+        <method name="get_SourcePath" signature="string()" />
+        <method name="GetAtomHeader" signature="AAClib.SimpleAtom(int64)" />
+        <method name="GetAudioTrack" signature="AAClib.TrackAtom()" />
+        <method name="GetAudioTrackDuration" signature="unsigned int32(AAClib.MovieAtom)" />
+        <method name="GetAudioTrackDurationInSecs" signature="float64(AAClib.MovieAtom)" />
+        <method name="GetAudioTrackTimeUnitsPerSecond" signature="unsigned int32()" />
+        <method name="GetAudioTrackTimeUnitsPerSecond" signature="unsigned int32(AAClib.MovieAtom)" />
+        <method name="GetChapter" signature="AAClib.ChapterInfo(int64)" />
+        <method name="GetChapter" signature="AAClib.ChapterInfo(System.TimeSpan)" />
+        <method name="GetChapters" signature="System.Collections.Generic.List`1&lt;AAClib.ChapterInfo&gt;()" />
+        <method name="GetIndexOfChunkAtTime" signature="int32(unsigned int32)" />
+        <method name="GetLastTrackChild" signature="int32(AAClib.MovieAtom)" />
+        <method name="GetMovieDurationAsTimeSpan" signature="System.TimeSpan()" />
+        <method name="GetMovieDurationInTimeUnits" signature="unsigned int32()" />
+        <method name="GetMovieTimeUnitsPerSecond" signature="unsigned int32()" />
+        <method name="GetOrAddTextTrack" signature="AAClib.TrackAtom()" />
+        <method name="GetOrAddTrackReference" signature="AAClib.TrackReferenceAtom(AAClib.MovieAtom)" />
+        <method name="GetOrAddVideoTrack" signature="AAClib.TrackAtom()" />
+        <method name="GetTextTrackDuration" signature="unsigned int32(AAClib.MovieAtom)" />
+        <method name="GetTextTrackTimeUnitsPerSecond" signature="unsigned int32()" />
+        <method name="GetTextTrackTimeUnitsPerSecond" signature="unsigned int32(AAClib.MovieAtom)" />
+        <method name="GetVideoTrackDuration" signature="unsigned int32(AAClib.MovieAtom)" />
+        <method name="GetVideoTrackTimeUnitsPerSecond" signature="unsigned int32(AAClib.MovieAtom)" />
+        <method name="MakeTrackAtom" signature="AAClib.TrackAtom(AAClib.Utilities/MediaTypes, unsigned int32, unsigned int32, unsigned int32)" />
+        <method name="MergeWith" signature="AAClib.AACfile/MergeResults(AAClib.AACfile)" />
+        <method name="myReporter_Processing" signature="void(int64)" />
+        <method name="myReporter_ReportProgress" signature="void(AAClib.ActivityTypes, int64, string)" />
+        <method name="OpenWriteFile" signature="bool(string)" />
+        <method name="OutputImage" signature="void(AAClib.ChunkMapEntry)" />
+        <method name="OutputTextEntry" signature="void(AAClib.ChunkMapEntry)" />
+        <method name="ReadAllAtoms" signature="bool()" />
+        <method name="ReadFile" signature="void(string)" />
+        <method name="ReadFile" signature="void(string, bool)" />
+        <method name="RebuildChunkOffsets" signature="void()" />
+        <method name="remove_ProcessingProgress" signature="void(AAClib.ProcessingProgressHandler)" />
+        <method name="remove_ReportError" signature="void(AAClib.ReportErrorHandler)" />
+        <method name="remove_ReportMessage" signature="void(AAClib.MessageHandler)" />
+        <method name="RemoveAllTracksExceptAudio" signature="void()" />
+        <method name="RemoveChapterStop" signature="void(int64)" />
+        <method name="RemoveImage" signature="void(int64)" />
+        <method name="SaveFile" signature="bool()" />
+        <method name="SaveFile" signature="bool(string)" />
+        <method name="SearchAndDestroy" signature="void(string)" />
+        <method name="set_Chunks" signature="void(AAClib.ChunkMap)" />
+        <method name="set_DestPath" signature="void(string)" />
+        <method name="set_NeedsSave" signature="void(bool)" />
+        <method name="set_SourcePath" signature="void(string)" />
+        <method name="SetDefaultImage" signature="void(string)" />
+        <method name="SetMovieDurationInTimeUnits" signature="void(unsigned int32)" />
+        <method name="SetMovieTimeUnitsPerSecond" signature="void(unsigned int32)" />
+        <method name="StripImageTrack" signature="void()" />
+        <method name="StripTextTrack" signature="void()" />
+        <method name="TimeSpanToTextUnits" signature="int64(System.TimeSpan)" />
+        <method name="TimeSpanToUnits" signature="int64(System.TimeSpan, unsigned int32)" />
+        <method name="TransferData" signature="bool(AAClib.ChunkMapEntry)" />
+        <method name="UnitsToTextTimeSpan" signature="System.TimeSpan(int64)" />
+        <method name="UnitsToTimeSpan" signature="System.TimeSpan(int64, unsigned int32)" />
+        <method name="UpdateChapterStop" signature="void(int64, int64, string)" />
+        <method name="UpdateImage" signature="void(int64, int64)" />
+        <method name="WriteAllAtoms" signature="bool()" />
+        <method name="WriteMergedFile" signature="bool(string)" />
+        <field name="atomStack" />
+        <field name="CurrentMediaType" signature="AAClib.Utilities/MediaTypes" />
+        <field name="fileReader" signature="System.IO.FileStream" />
+        <field name="fileWriter" signature="System.IO.FileStream" />
+        <field name="ImageNum" signature="int32" />
+        <field name="LoadedOK" signature="bool" />
+        <field name="myChunkMap" signature="AAClib.ChunkMap" />
+        <field name="myDestPath" signature="string" />
+        <field name="myFileLength" signature="int64" />
+        <field name="myNeedsSave" signature="bool" />
+        <field name="myReporter" signature="AAClib.ReporterEngine" />
+        <field name="mySourcePath" signature="string" />
+        <field name="ProcessingProgress" signature="AAClib.ProcessingProgressHandler" />
+        <field name="ReportError" signature="AAClib.ReportErrorHandler" />
+        <field name="ReportingOn" signature="bool" />
+        <field name="ReportMessage" signature="AAClib.MessageHandler" />
+        <field name="rootAtom" signature="AAClib.FileAtom" />
+        <field name="TooNearEndInSecs" signature="float64" />
+      </type>
+      <type name="AAClib.AACfile" excludetype="false">
+        <method name="get_Level" signature="" />
+        <method name="ReadMetaData" signature="" />
+        <method name="StampMarkAble" signature="" />
+        <method name="ClearArtwork" signature="void()" />
+        <method name="get_Author" signature="string()" />
+        <method name="get_BookTitle" signature="string()" />
+        <method name="get_Chunks" signature="AAClib.ChunkMap()" />
+        <method name="get_DestPath" signature="string()" />
+        <method name="get_Genre" signature="string()" />
+        <method name="get_Movie" signature="AAClib.MovieAtom()" />
+        <method name="get_NeedsSave" signature="bool()" />
+        <method name="get_PartName" signature="string()" />
+        <method name="get_SourcePath" signature="string()" />
+        <method name="GetArtwork" signature="System.Drawing.Image()" />
+        <method name="GetAudioTrack" signature="AAClib.TrackAtom()" />
+        <method name="GetVideoTrack" signature="AAClib.TrackAtom()" />
+        <method name="MetaDataExists" signature="bool()" />
+        <method name="PutArtwork" signature="void(System.Drawing.Image)" />
+        <method name="ReadMovieHeader" signature="void(string)" />
+        <method name="set_Author" signature="void(string)" />
+        <method name="set_BookTitle" signature="void(string)" />
+        <method name="set_Chunks" signature="void(AAClib.ChunkMap)" />
+        <method name="set_DestPath" signature="void(string)" />
+        <method name="set_Genre" signature="void(string)" />
+        <method name="set_NeedsSave" signature="void(bool)" />
+        <method name="set_PartName" signature="void(string)" />
+        <method name="set_SourcePath" signature="void(string)" />
+        <field name="InterpretMetaData" signature="bool" />
+        <field name="LastError" signature="string" />
+        <field name="LoadedOK" signature="bool" />
+      </type>
+      <type name="AAClib.AACfile/MergeResults">
+        <field name="BadStructure" signature="AAClib.AACfile/MergeResults" />
+        <field name="EmptyFile" signature="AAClib.AACfile/MergeResults" />
+        <field name="MismatchPreferredRate" signature="AAClib.AACfile/MergeResults" />
+        <field name="MismatchSampleRate" signature="AAClib.AACfile/MergeResults" />
+        <field name="MismatchTimeScale" signature="AAClib.AACfile/MergeResults" />
+        <field name="NoFilePath" signature="AAClib.AACfile/MergeResults" />
+        <field name="Success" signature="AAClib.AACfile/MergeResults" />
+        <field name="value__" signature="int32" />
+      </type>
+      <type name="AAClib.AACfile/ProcessingPhases">
+        <field name="ConstructingHeader" signature="AAClib.AACfile/ProcessingPhases" />
+        <field name="ConstructingMergeHeader" signature="AAClib.AACfile/ProcessingPhases" />
+        <field name="None" signature="AAClib.AACfile/ProcessingPhases" />
+        <field name="ReadComplete" signature="AAClib.AACfile/ProcessingPhases" />
+        <field name="ReadingFile" signature="AAClib.AACfile/ProcessingPhases" />
+        <field name="value__" signature="int32" />
+        <field name="WriteComplete" signature="AAClib.AACfile/ProcessingPhases" />
+        <field name="WriteMergeComplete" signature="AAClib.AACfile/ProcessingPhases" />
+        <field name="WritingAudioData" signature="AAClib.AACfile/ProcessingPhases" />
+        <field name="WritingHeader" signature="AAClib.AACfile/ProcessingPhases" />
+        <field name="WritingMergeAudioData" signature="AAClib.AACfile/ProcessingPhases" />
+        <field name="WritingMergeHeader" signature="AAClib.AACfile/ProcessingPhases" />
+      </type>
+      <type name="AAClib.ActivityTypes">
+        <field name="Error" signature="AAClib.ActivityTypes" />
+        <field name="None" signature="AAClib.ActivityTypes" />
+        <field name="Processing" signature="AAClib.ActivityTypes" />
+        <field name="Reading" signature="AAClib.ActivityTypes" />
+        <field name="value__" signature="int32" />
+        <field name="Writing" signature="AAClib.ActivityTypes" />
+      </type>
+      <type name="AAClib.ChapterInfo">
+        <method name="get_ImagePath" signature="string()" />
+        <method name="get_SourceImagePath" signature="string()" />
+        <method name="get_StartTime" signature="System.TimeSpan()" />
+        <method name="get_StartTimeInUnits" signature="int64()" />
+        <method name="get_Text" signature="string()" />
+        <method name="set_ImagePath" signature="void(string)" />
+        <method name="set_SourceImagePath" signature="void(string)" />
+        <method name="set_StartTime" signature="void(System.TimeSpan)" />
+        <method name="set_StartTimeInUnits" signature="void(int64)" />
+        <method name="set_Text" signature="void(string)" />
+        <method name="ToString" signature="string()" />
+        <field name="myImagePath" signature="string" />
+        <field name="mySourceImagePath" signature="string" />
+        <field name="myStartTime" signature="System.TimeSpan" />
+        <field name="myStartTimeInUnits" signature="int64" />
+        <field name="myText" signature="string" />
+      </type>
+      <type name="AAClib.ChunkSourceTypes">
+        <field name="ImageIndex" signature="AAClib.ChunkSourceTypes" />
+        <field name="None" signature="AAClib.ChunkSourceTypes" />
+        <field name="SourceFile" signature="AAClib.ChunkSourceTypes" />
+        <field name="TextIndex" signature="AAClib.ChunkSourceTypes" />
+        <field name="value__" signature="int32" />
+      </type>
+      <type name="AAClib.ProcessingHandler" />
+      <type name="AAClib.ProcessingProgressHandler" />
+      <type name="AAClib.ReportErrorHandler" />
+      <type name="AAClib.ReportProgressHandler" />
+      <type name="AAClib.TextTableEntry/CharTypes">
+        <field name="None" signature="AAClib.TextTableEntry/CharTypes" />
+        <field name="UTF_16_BigEndian" signature="AAClib.TextTableEntry/CharTypes" />
+        <field name="UTF_16_SmallEndian" signature="AAClib.TextTableEntry/CharTypes" />
+        <field name="UTF_8" signature="AAClib.TextTableEntry/CharTypes" />
+        <field name="value__" signature="int32" />
+      </type>
+      <type name="AAClib.Utilities/MediaTypes">
+        <field name="Sound" signature="AAClib.Utilities/MediaTypes" />
+        <field name="Text" signature="AAClib.Utilities/MediaTypes" />
+        <field name="Unknown" signature="AAClib.Utilities/MediaTypes" />
+        <field name="value__" signature="int32" />
+        <field name="Video" signature="AAClib.Utilities/MediaTypes" />
+      </type>
+    </excludelist>
+    <mapping>
+      <mapoutput overwrite="false">
+        <file dir="${configdir}\Dotfuscated" name="Map.xml" />
+      </mapoutput>
+    </mapping>
+    <referencerulelist />
+  </renaming>
+  <smartobfuscation>
+    <smartobfuscationreport verbosity="all" overwrite="false" />
+  </smartobfuscation>
+</dotfuscator>

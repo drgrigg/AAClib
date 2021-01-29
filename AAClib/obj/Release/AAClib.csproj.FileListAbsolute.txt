@@ -1,0 +1,22 @@
+C:\VSProjects\AAClib\AAClib\bin\Release\AAClib.dll
+C:\VSProjects\AAClib\AAClib\bin\Release\AAClib.pdb
+C:\VSProjects\AAClib\AAClib\obj\Release\ResolveAssemblyReference.cache
+C:\VSProjects\AAClib\AAClib\obj\Release\AAClib.dll
+C:\VSProjects\AAClib\AAClib\obj\Release\AAClib.pdb
+C:\Users\David\Dropbox\Current Projects\VSProjects - DO NOT DELETE\AAClib\AAClib\bin\Release\AAClib.dll
+C:\Users\David\Dropbox\Current Projects\VSProjects - DO NOT DELETE\AAClib\AAClib\bin\Release\AAClib.pdb
+C:\Users\David\Dropbox\Current Projects\VSProjects - DO NOT DELETE\AAClib\AAClib\obj\Release\ResolveAssemblyReference.cache
+C:\Users\David\Dropbox\Current Projects\VSProjects - DO NOT DELETE\AAClib\AAClib\obj\Release\AAClib.dll
+C:\Users\David\Dropbox\Current Projects\VSProjects - DO NOT DELETE\AAClib\AAClib\obj\Release\AAClib.pdb
+C:\Users\david\Dropbox\VSProjects\AAClib\AAClib\bin\Release\AAClib.dll
+C:\Users\david\Dropbox\VSProjects\AAClib\AAClib\bin\Release\AAClib.pdb
+C:\Users\david\Dropbox\VSProjects\AAClib\AAClib\obj\Release\AAClib.dll
+C:\Users\david\Dropbox\VSProjects\AAClib\AAClib\obj\Release\AAClib.pdb
+C:\Users\David\Dropbox\VSProjects\AAClib\AAClib\obj\Release\AAClib.csprojResolveAssemblyReference.cache
+C:\Users\David\Dropbox\VSProjects\AAClib\AAClib\obj\Release\AAClib.csproj.ResolveComReference.cache
+C:\Users\David\Dropbox\Shared\VSProjects\AAClib\AAClib\bin\Release\AAClib.dll
+C:\Users\David\Dropbox\Shared\VSProjects\AAClib\AAClib\bin\Release\AAClib.pdb
+C:\Users\David\Dropbox\Shared\VSProjects\AAClib\AAClib\obj\Release\AAClib.csprojResolveAssemblyReference.cache
+C:\Users\David\Dropbox\Shared\VSProjects\AAClib\AAClib\obj\Release\AAClib.csproj.ResolveComReference.cache
+C:\Users\David\Dropbox\Shared\VSProjects\AAClib\AAClib\obj\Release\AAClib.dll
+C:\Users\David\Dropbox\Shared\VSProjects\AAClib\AAClib\obj\Release\AAClib.pdb

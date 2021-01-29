@@ -1,0 +1,22 @@
+C:\VSProjects\AAClib\TestAAC\bin\Release\TestAAC.exe
+C:\VSProjects\AAClib\TestAAC\bin\Release\TestAAC.pdb
+C:\VSProjects\AAClib\TestAAC\bin\Release\AAClib.dll
+C:\VSProjects\AAClib\TestAAC\obj\Release\ResolveAssemblyReference.cache
+C:\VSProjects\AAClib\TestAAC\obj\Release\TestAAC.Form1.resources
+C:\VSProjects\AAClib\TestAAC\obj\Release\TestAAC.Properties.Resources.resources
+C:\VSProjects\AAClib\TestAAC\obj\Release\TestAAC.csproj.GenerateResource.Cache
+C:\VSProjects\AAClib\TestAAC\obj\Release\TestAAC.exe
+C:\VSProjects\AAClib\TestAAC\obj\Release\TestAAC.pdb
+C:\VSProjects\AAClib\TestAAC\bin\Release\AAClib.pdb
+C:\Users\David\Dropbox\Current Projects\VSProjects - DO NOT DELETE\AAClib\TestAAC\obj\Release\TestAAC.exe
+C:\Users\David\Dropbox\Current Projects\VSProjects - DO NOT DELETE\AAClib\TestAAC\obj\Release\TestAAC.pdb
+C:\Users\David\Dropbox\Current Projects\VSProjects - DO NOT DELETE\AAClib\TestAAC\bin\Release\TestAAC.exe.config
+C:\Users\David\Dropbox\Current Projects\VSProjects - DO NOT DELETE\AAClib\TestAAC\bin\Release\TestAAC.exe
+C:\Users\David\Dropbox\Current Projects\VSProjects - DO NOT DELETE\AAClib\TestAAC\bin\Release\TestAAC.pdb
+C:\Users\David\Dropbox\Current Projects\VSProjects - DO NOT DELETE\AAClib\TestAAC\bin\Release\AAClib.dll
+C:\Users\David\Dropbox\Current Projects\VSProjects - DO NOT DELETE\AAClib\TestAAC\bin\Release\AAClib.pdb
+C:\Users\David\Dropbox\Current Projects\VSProjects - DO NOT DELETE\AAClib\TestAAC\obj\Release\ResolveAssemblyReference.cache
+C:\Users\David\Dropbox\Current Projects\VSProjects - DO NOT DELETE\AAClib\TestAAC\obj\Release\TestAAC.Form1.resources
+C:\Users\David\Dropbox\Current Projects\VSProjects - DO NOT DELETE\AAClib\TestAAC\obj\Release\TestAAC.Properties.Resources.resources
+C:\Users\David\Dropbox\Current Projects\VSProjects - DO NOT DELETE\AAClib\TestAAC\obj\Release\ResGen.read.1.tlog
+C:\Users\David\Dropbox\Current Projects\VSProjects - DO NOT DELETE\AAClib\TestAAC\obj\Release\ResGen.write.1.tlog
